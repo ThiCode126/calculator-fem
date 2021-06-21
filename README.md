@@ -8,6 +8,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ![](./preview.jpg)
 
+![](./Calculator.gif)
+
 ### Links
 
 - Solution URL: [https://github.com/ThiCode126/calculator-fem](https://github.com/ThiCode126/calculator-fem)
