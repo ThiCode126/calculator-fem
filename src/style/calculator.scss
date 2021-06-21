@@ -27,7 +27,6 @@
       background: var(--screen-back);
       border-radius: 10px;
       padding: 24px;
-      margin-bottom: 31px;
 
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -117,7 +116,6 @@
 
       .touch {
         padding: 32px;
-        margin-bottom: 96px;
         gap: 25px;
 
         .tch {

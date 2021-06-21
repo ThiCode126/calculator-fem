@@ -92,13 +92,16 @@ body {
   line-height: 36px;
   background: var(--main-back);
   color: var(--main-text);
-  padding: 96px 0;
+  padding: 28px 0 31px;
 }
 
 /**
 * ? DeskTop
 */
 @media (min-width: 1440px) {
+  body {
+    padding: 96px 0;
+  }
   .content-wrapper {
     width: 540px;
   }
