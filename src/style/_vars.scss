@@ -1,0 +1,104 @@
+body#t1 {
+  // Background
+  --main-back: #3a4764;
+  --second-back: #242d44;
+  --screen-back: #181f33;
+
+  // Keys
+  --key-first: #647198; // Desaturated dark blue (key background): hsl(225, 21%, 49%)
+  --key-first-hover: #a2b2e1;
+  --key-second: #414e73; // Desaturated dark blue (key shadow): hsl(224, 28%, 35%)
+
+  --key-third: #d03f2f; // Red (key background, toggle): hsl(6, 63%, 50%)
+  --key-third-hover: #f96b5b;
+  --key-fourth: #93261a; // Dark red (key shadow): hsl(6, 70%, 34%)
+
+  --key-fifth: #eae3dc; // Light grayish orange (key background): hsl(30, 25%, 89%)
+  --key-fifth-hover: #fffffe;
+  --key-sixth: #b3a497; // Grayish orange (key shadow): hsl(28, 16%, 65%)
+
+  // Text
+  --text-first: #434a59; // Very dark grayish blue: hsl(221, 14%, 31%)
+  --text-second: #ffffff; // White: hsl(0, 0, 100%)
+  --text-third: #ffffff; // White: hsl(0, 0, 100%)
+
+  --main-text: #ffffff;
+}
+
+body#t2 {
+  // Background
+  --main-back: #e6e6e6;
+  --second-back: #d1cccc;
+  --screen-back: #eeeeee;
+
+  // Keys
+  --key-first: #377f86; // Dark moderate cyan (key background): hsl(185, 42%, 37%)
+  --key-first-hover: #62b5bc;
+  --key-second: #1b5f65; // Very dark cyan (key shadow): hsl(185, 58%, 25%)
+
+  --key-third: #c85402; // Orange (key background, toggle): hsl(25, 98%, 40%)
+  --key-third-hover: #ff8a38;
+  --key-fourth: #893901; // Dark orange (key shadow): hsl(25, 99%, 27%)
+
+  --key-fifth: #e5e4e1; // Light grayish yellow (key background): hsl(45, 7%, 89%)
+  --key-fifth-hover: #fff;
+  --key-sixth: #a69d91; // Dark grayish orange (key shadow): hsl(35, 11%, 61%)
+
+  // Text
+  --text-first: #36362c; // Very dark grayish yellow: hsl(60, 10%, 19%)
+  --text-second: #ffffff; // White (text): hsl(0, 0, 100%)
+  --text-third: #ffffff; // White (text): hsl(0, 0, 100%)
+
+  --main-text: #36362c;
+}
+
+body#t3 {
+  // Background
+  --main-back: #160628;
+  --second-back: #1e0936;
+  --screen-back: #1e0936;
+
+  // Keys
+  --key-first: #56077c; // Dark violet (key background): hsl(281, 89%, 26%)
+  --key-first-hover: #8631af;
+  --key-second: #bc15f4; // Vivid magenta (key shadow): hsl(285, 91%, 52%)
+
+  --key-third: #00e0d1; // Pure cyan (key background, toggle): hsl(176, 100%, 44%)
+  --key-third-hover: #93fff8;
+  --key-fourth: #6cf9f2; // Soft cyan (key shadow): hsl(177, 92%, 70%)
+
+  --key-fifth: #341c4f; // Very dark violet (key background): hsl(268, 47%, 21%)
+  --key-fifth-hover: #6c34ac;
+  --key-sixth: #871c9c; // Dark magenta (key shadow): hsl(290, 70%, 36%)
+
+  // Text
+  --text-first: #ffe53d; // Light yellow: hsl(52, 100%, 62%)
+  --text-second: #1a2327; // Very dark blue: hsl(198, 20%, 13%)
+  --text-third: #ffffff; // White (text): hsl(0, 0, 100%)
+
+  --main-text: #ffe53d;
+}
+
+.content-wrapper {
+  width: 327px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  background: var(--main-back);
+  color: var(--main-text);
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .content-wrapper {
+    width: 540px;
+  }
+}

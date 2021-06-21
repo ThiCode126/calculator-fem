@@ -1,0 +1,77 @@
+header {
+  .in-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    height: 104px;
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.533333px;
+    }
+
+    .toggle {
+      display: flex;
+      align-items: flex-end;
+
+      h2 {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 1px;
+        margin: 0 21px 0 0;
+        text-transform: uppercase;
+      }
+
+      .toggle-theme {
+        font-size: 12px;
+        line-height: 13px;
+        cursor: pointer;
+
+        .number {
+          display: flex;
+          justify-content: space-around;
+          padding-bottom: 5px;
+        }
+
+        .switch {
+          background: var(--second-back);
+          border-radius: 13px;
+          height: 26px;
+          width: 71px;
+          position: relative;
+
+          &:hover {
+            &::after {
+              background: var(--key-third-hover);
+            }
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 5px;
+            height: 16px;
+            width: 16px;
+            border-radius: 8px;
+            background: var(--key-third);
+          }
+
+          &.t1::after {
+            left: 5px;
+          }
+
+          &.t2::after {
+            left: 28px;
+          }
+
+          &.t3::after {
+            left: 50px;
+          }
+        }
+      }
+    }
+  }
+}
