@@ -10,8 +10,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ThiCode126/calculator-fem](https://github.com/ThiCode126/calculator-fem)
+- Live Site URL: [https://calculator-fem-thicode.netlify.app](https://calculator-fem-thicode.netlify.app)
 
 ## My process
 
