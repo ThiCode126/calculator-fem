@@ -1,5 +1,9 @@
 #calculator {
   .in-section {
+    h2,
+    label {
+      display: none;
+    }
     .result {
       background: var(--screen-back);
       border-radius: 10px;

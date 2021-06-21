@@ -81,8 +81,10 @@ const Calculator = ({ theme, toggleTheme, isLight }) => {
     <section id="calculator">
       <div className="content-wrapper">
         <div className="in-section">
+          <h2>Calculator</h2>
           {/* Results */}
           <div className="result">
+            <label for="calcul">Calcul</label>
             <input
               type="text" autoFocus
               name="calcul" id="calcul"
@@ -96,7 +98,7 @@ const Calculator = ({ theme, toggleTheme, isLight }) => {
             {touches.map((tch, k) => {
               return (
                 <div
-                  type="button"
+
                   key={k}
                   className={`tch tch-${tch}`}
                   onClick={() => handleTouch(tch)}
